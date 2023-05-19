@@ -1,0 +1,43 @@
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font: 300 11px/1.4 "Helvetica Neue", "sans-serif";
+  color: #444;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #022c43;
+  overflow: hidden;
+  display: block;
+}
+
+.dashboard {
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    overflow: visible;
+  }
+}
+
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2'),
+    url('./assets/fonts/CoolveticaRg-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./assets/fonts/helvetica-neu.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'La Belle Aurore';
+  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2'),
+    url('./assets/fonts/LaBelleAurore.woff') format('woff');
+}
